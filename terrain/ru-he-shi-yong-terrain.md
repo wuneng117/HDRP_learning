@@ -32,4 +32,4 @@
 1. 选择paint details
 2. 点击add grass texture，添加贴图类的草
 3. 点击add detail mesh，添加模型类的草
-4.
+
