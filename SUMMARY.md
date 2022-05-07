@@ -8,4 +8,6 @@
   * [LOD](tu-xing-xing-neng-fen-xi/lod.md)
   * [分析工具](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/README.md)
     * [GPA](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/README.md)
+      * [几种分析方式](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/ji-zhong-fen-xi-fang-shi.md)
       * [术语表](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/shu-yu-biao.md)
+      * [常见问题](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/chang-jian-wen-ti.md)

@@ -1,7 +1,3 @@
----
-description: 官方下载地址
----
-
 # GPA
 
 [官方下载地址](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)

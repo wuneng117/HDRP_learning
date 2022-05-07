@@ -1,6 +1,6 @@
 # 基础
 
-![范例](<../.gitbook/assets/image (1).png>)
+![范例](<../.gitbook/assets/image (1) (1).png>)
 
 上图出自unity插件Rocky Hills Environment - Pro Pack 2.1的场景RHESecene\_UnityTerrain\_Summer，在build成exe后运行的性能分析，没有优化。每帧耗时23ms。
 
