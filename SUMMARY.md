@@ -11,6 +11,7 @@
   * [Merge - Instancing](tu-xing-xing-neng-fen-xi/merge-instancing.md)
   * [Mesh Cluster Rendering](tu-xing-xing-neng-fen-xi/mesh-cluster-rendering.md)
   * [Virtual Texture(VT)](tu-xing-xing-neng-fen-xi/virtual-texture-vt.md)
+  * [Runtime Virtual Texture(RVT)](tu-xing-xing-neng-fen-xi/runtime-virtual-texture-rvt.md)
   * [分析工具](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/README.md)
     * [GPA](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/README.md)
       * [几种分析方式](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/ji-zhong-fen-xi-fang-shi.md)
