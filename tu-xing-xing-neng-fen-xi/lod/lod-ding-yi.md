@@ -1,14 +1,12 @@
----
-description: unity的官方文档就挺详细的
----
+# lod定义
 
-# LOD
+lod实现主要有2种方式：
 
-{% embed url="https://docs.unity3d.com/cn/current/Manual/LevelOfDetail.html" %}
+离散lod（discrete levels of detail）在游戏里常用到
 
-lod实现主要有2中方式，其中离散lod（discrete levels of detail）在游戏里常用到，此外还有连续lod（contunious leves of detail），几何着色器内用？
+连续lod（contunious leves of detail），几何着色器内用？
 
-wiki的解释
+**wiki的解释**
 
 {% hint style="info" %}
 The first method, **Discrete Levels of Detail (DLOD)**, involves creating multiple, discrete versions of the original geometry with decreased levels of geometric detail. At runtime, the full-detail models are substituted for the models with reduced detail as necessary. Due to the discrete nature of the levels, there may be visual [popping](https://en.wikipedia.org/wiki/Popping\_\(computer\_graphics\)) when one model is exchanged for another. This may be mitigated by [alpha blending](https://en.wikipedia.org/wiki/Alpha\_blending) or [morphing](https://en.wikipedia.org/wiki/Morphing) between states during the transition.
