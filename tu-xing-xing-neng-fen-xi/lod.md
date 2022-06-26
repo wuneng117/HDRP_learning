@@ -1,4 +1,6 @@
-# lod定义
+# LOD
+
+## 一.lod定义
 
 lod实现主要有2种方式：
 
@@ -15,3 +17,16 @@ The second method, **Continuous Levels of Detail (CLOD)**, uses a structure whic
 
 In both cases, LODs are chosen based on some heuristic which is used to judge how much detail is being lost by the reduction in detail, such as by evaluation of the LOD's geometric error relative to the full-detail model. Objects are then displayed with the minimum amount of detail required to satisfy the heuristic, which is designed to minimize geometric detail as much as possible to maximize performance while maintaining an acceptable level of visual quality.
 {% endhint %}
+
+## 二.简介
+
+**unity的官方文档就挺详细的**
+
+{% embed url="https://docs.unity3d.com/cn/current/Manual/LevelOfDetail.html" %}
+
+## 三.和texture关系
+
+通过观察unity的插件**Rocky Hills Environment - Pro**，在实现树的lod上：
+
+* 网格模型：不同lod引用的是不同的fbx模型
+* 纹理：除了最低级别的billboard外（1024x1024），其他模型用的都是同一张大贴图（4096x4096，真大！）
