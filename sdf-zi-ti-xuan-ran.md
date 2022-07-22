@@ -1,0 +1,19 @@
+---
+description: >-
+  原理上，Signed Distance Field 直譯為「帶信號的距離場」。它在圖像中儲存了空間中的各個 Point 到圖像輪廓之間的距離，Signed
+  這邊指的是正負信號，如果 Point 在圖像內為負值，在外側則為正值。
+---
+
+# SDF字体渲染
+
+Unity的文本最终解决方案TextMeshPro效率高，而且可以实现各种效果，可以同时用在3d场景中和2dUI里，其原理就是用户SDF去做字体渲染。
+
+原理讲解比较清楚是[这篇文章](https://medium.com/codememo/spark-ar-%E5%AF%A6%E4%BD%9C-sdf-shader-%E4%B8%8A-b0864938df3b)的前半部分。
+
+在理解原理基础上，可以看[这篇文章](https://zhuanlan.zhihu.com/p/26217154)，从”论文里面的干货“开始。
+
+
+
+tips：
+
+* 原理就是利用像素着色器的线性插值（每个texture2d函数取值，都是插值对应位置上下左右4个纹素算出）

@@ -20,3 +20,4 @@
       * [几种分析方式](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/ji-zhong-fen-xi-fang-shi.md)
       * [术语表](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/shu-yu-biao.md)
       * [常见问题](tu-xing-xing-neng-fen-xi/fen-xi-gong-ju/gpa/chang-jian-wen-ti.md)
+* [SDF字体渲染](sdf-zi-ti-xuan-ran.md)
